@@ -1,31 +1,27 @@
 nav {
     width: 100%;
-    padding: 32px;
+    height: 112px;
     display: flex;
-    justify-content: space-between;
-    >img {
+    justify-content: space-around;
+    align-items: center;
+
+    >.sakura-logo {
         width: 64px;
         height: 64px;
+        margin-right: 250px;
     }
 
-    >div {
-        width: 350px;
+    >.headline-navigation {
+        width: 750px;
         display: flex;
         height: 112px;
         justify-content: space-around;
         align-items: center;
+
         >a {
             &:hover {
                 color: #CD5C5C;
             }
-        }
-        >.phone-number {
-            background-color: #9F0908;
-            text-align: center;
-            color: white;
-            border-style: solid;
-            border-radius: 15px;
-            padding: 12px 12px;
         }
     }
 }
@@ -33,4 +29,27 @@ nav {
 a {
     text-decoration: none;
     color: whitesmoke;
+    font-size: 24px;
+}
+
+.phone-btn {
+    display: flex;
+    align-items: center;
+    background-color: #9F0908;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 12px 12px;
+
+    &:hover {
+        background-color: #CD5C5C;
+        color: white;
+    }
+
+    >.phone-icon {
+        height: 25px;
+        object-fit: center;
+        margin-right: 10px;
+    }
 }

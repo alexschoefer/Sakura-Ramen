@@ -3,12 +3,19 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 64px;
+    display: block;
+    margin: 0;
+    font-family: 'Raleway';
+    color: white;
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: 180px;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 30%;
+    font-weight: 300;
 }
 
 section {
